@@ -1,0 +1,26 @@
+INPUT:
+./qSim 200 10 60 2 3
+
+OUTPUT:
+**********  This is the output for a common queue  **********   
+
+  Number of customers served within the simulation time is: 200
+  Total service time to serve all customers is: 59.7625
+  Number of tellers: 10
+  The average time a customer spent in the bank is: 2.18429
+  Max waiting time of a customer is: 1.06419
+  Total amount of teller service time: 395.992
+  Total amount of time the tellers were idle: 215.676
+
+
+**********  This is the output for queues one per teller   **********     
+
+  Number of customers served within the simulation time is: 199
+  Total service time to serve all customers is: 60.0217
+  Number of tellers: 10
+  Average time a customer spent in the bank is: 2.46678
+  Max waiting time of a customer is: 4.68724
+  Total amount of teller service time: 403.866
+  Total amount of time the tellers were idle: 201.627
+
+
